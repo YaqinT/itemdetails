@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      *{margin: 0;padding: 0}
+      body{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      .wrapper{
+        display: flex;
+        justify-content: space-between;
+        width:1300px;
+        margin-top: 2rem;
+      }
+      .product{
+        width: 300px;
+        height: 240px;
+        overflow: hidden;
+        cursor:crosshair;
+        border:1px solid #ccc;
+      }
+      .product img{
+        width: 360px;
+      }
+      .product:hover{
+        border:1px solid #47ceff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+       <div class="product product1">
+         <img src="img/1.jpeg" alt="">
+       </div>
+       <div class="product product2">
+         <img src="img/2.jpeg" alt="">
+       </div>
+       <div class="product product3">
+         <img src="img/3.jpeg" alt="">
+       </div>
+       <div class="product product4">
+         <img src="img/4.jpeg" alt="">
+       </div>
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
